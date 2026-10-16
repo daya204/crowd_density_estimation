@@ -1,0 +1,28 @@
+# CrowdSense backend dependencies
+# Install with: .venv\Scripts\pip install -r requirements-backend.txt
+
+# Core data / science
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+pillow==12.3.0
+
+# API server
+fastapi==0.143.2
+uvicorn==0.54.0
+python-multipart==0.0.32
+
+# YOLO head detection (primary inference engine)
+# Installs torch + torchvision automatically
+ultralytics==8.4.178
+
+# Notebook support (for crowd-control.ipynb)
+ipykernel==7.4.0
+ipython==9.17.1
+kagglehub==1.0.2
+
+# PyTorch (CPU) — uncomment for live PET inference
+# Install the GPU build from https://pytorch.org/get-started/locally/
+# torch==2.6.0
+# torchvision==0.21.0

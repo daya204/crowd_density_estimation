@@ -1,0 +1,49 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.design-cache/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules/
+.next/
+.DS_Store
+
+# Python virtual environment
+.venv/
+
+# Excluded project folders (large / not needed in repo)
+PET/
+test/
+train/
+valid/
+checkpoint/
+checkpoint.pt
+runs/
+
+# Notebooks
+crowd-control.ipynb
+crowd_control.ipynb
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime database (created on server start)
+crowdsense.db
+
+# Dataset metadata
+README.dataset.txt
+README.roboflow.txt
+data.yaml
+
+# Model weight files
+*.pt
+*.pth
