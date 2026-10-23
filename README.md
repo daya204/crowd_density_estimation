@@ -1,6 +1,6 @@
 # CrowdSense — Smart Crowd Monitoring Dashboard
 
-AI-powered crowd monitoring dashboard integrating the **PET (Point Query Transformer)** model with a Next.js frontend.
+Crowd monitoring dashboard integrating the **PET (Point Query Transformer)** model with a Next.js frontend.
 
 ---
 
